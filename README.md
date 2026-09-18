@@ -1,11 +1,24 @@
 # Rainmeter Enigma Custom (Trent)
 
+A ready-to-install [Rainmeter](https://www.rainmeter.net/) desktop: top bar, two sidebars, live
+news ticker, calendar, weather, drive gauges — set up from one panel, no file editing.
+
+## Quick start
+
+1. **Get Rainmeter** — download it from **[rainmeter.net](https://www.rainmeter.net/)** and install it.
+2. **Get this desktop** — **[⬇ click here to download it (.zip)](https://github.com/DrTHunter/Rainmeter-Enigma-Custom-Trent/archive/refs/heads/main.zip)**, then right-click the file → **Extract All…**
+3. **Install it** — open the extracted folder and double-click **`install.cmd`**.
+
+**Done.** Click the **gear (⚙)** in the new top bar to put in your name, location and calendars.
+
 [![Download the latest version (zip)](https://img.shields.io/badge/Download-latest%20version%20(.zip)-ff0099?style=for-the-badge&logo=github)](https://github.com/DrTHunter/Rainmeter-Enigma-Custom-Trent/archive/refs/heads/main.zip)
 
-**[⬇ Download the zip](https://github.com/DrTHunter/Rainmeter-Enigma-Custom-Trent/archive/refs/heads/main.zip)** · unzip it · double-click **`install.cmd`** · done.
+> Extract the zip somewhere permanent (like `Documents`), not `Downloads` — the desktop runs
+> from that folder. If Windows SmartScreen appears, choose *More info → Run anyway*.
 
-A ready-to-install [Rainmeter](https://www.rainmeter.net/) desktop built on Kaelri's **Enigma**
-suite, reworked for current Windows and current web services.
+---
+
+## What you get
 
 - **Top bar** — sunrise / sunset, moon phase, your next calendar event, a scrolling **LIVE FEED**
   news ticker, Google search, three drive gauges, CPU, RAM, battery, a settings gear and a
@@ -16,49 +29,35 @@ suite, reworked for current Windows and current web services.
   a five-feed news reader, volume.
 - **Extras** — a Pomodoro timer and a time-of-day greeting, both hidden by the sidebar toggle.
 
-Everything personal is entered through one **Setup panel** — no editing of `.ini` files.
+Built on Kaelri's **Enigma** suite, reworked for current Windows and current web services.
+You need **Windows 10 or 11**; the layout was arranged on a 1920×1080 screen.
 
-## Install
+## Installation details
 
-You need **Windows 10 or 11**. The layout was arranged on a 1920×1080 screen.
+**What `install.cmd` does:**
 
-### 1. Get Rainmeter
-
-Download it from **<https://www.rainmeter.net/>** and install it with the default options.
-(You can skip this: the installer below gets it through `winget` if it is missing.)
-
-### 2. Get this setup
-
-**Download** —
-**[click here to download the zip](https://github.com/DrTHunter/Rainmeter-Enigma-Custom-Trent/archive/refs/heads/main.zip)**
-(about 5 MB). Right-click the downloaded file → **Extract All…**, and extract it somewhere
-permanent such as `Documents` — the skins run from that folder, so don't leave it in Downloads
-and delete it later. Open the extracted `Rainmeter-Enigma-Custom-Trent-main` folder and
-double-click **`install.cmd`**.
-
-**Or in one step from PowerShell** — this downloads the repo to
-`Documents\Rainmeter-Enigma-Custom-Trent` and installs it:
-
-```powershell
-irm https://raw.githubusercontent.com/DrTHunter/Rainmeter-Enigma-Custom-Trent/main/install.ps1 | iex
-```
-
-(`git clone` works too, if you prefer.)
-
-Either way the installer:
-
-1. installs Rainmeter with `winget` if it isn't there yet,
+1. installs Rainmeter with `winget` if it isn't there yet (so Quick start step 1 is optional on
+   a current Windows 10/11),
 2. closes Rainmeter,
 3. backs up your existing `Rainmeter.ini` (as `Rainmeter.ini.before-install-<date>`),
 4. installs the config, the layout and the one plugin into `%APPDATA%\Rainmeter`, pointing
-   Rainmeter's skins folder at this folder,
+   Rainmeter's skins folder at the folder you extracted,
 5. starts Rainmeter again.
 
 Nothing else on the PC is changed, and the last thing it prints is how to undo it. If you
 already use Rainmeter, note that step 4 switches Rainmeter to *this* skins folder — your old
 skins are not deleted, and restoring the backup brings them back.
 
-### 3. Make it yours
+**Prefer the command line?** This downloads the repo to
+`Documents\Rainmeter-Enigma-Custom-Trent` and installs it in one go:
+
+```powershell
+irm https://raw.githubusercontent.com/DrTHunter/Rainmeter-Enigma-Custom-Trent/main/install.ps1 | iex
+```
+
+`git clone` works too — run `install.cmd` inside the clone.
+
+## Make it yours
 
 Click the **gear (⚙)** in the top bar. That opens **Enigma Setup**, one panel for:
 
