@@ -1,4 +1,4 @@
-# Enigma Trent — a Rainmeter desktop
+# Rainmeter Enigma Custom (Trent)
 
 A ready-to-install [Rainmeter](https://www.rainmeter.net/) desktop built on Kaelri's **Enigma**
 suite, reworked for current Windows and current web services.
@@ -26,10 +26,10 @@ Download it from **<https://www.rainmeter.net/>** and install it with the defaul
 ### 2. Get this setup
 
 **One step** — paste into PowerShell. It downloads this repo to
-`Documents\rainmeter-enigma-trent` and installs it:
+`Documents\Rainmeter-Enigma-Custom-Trent` and installs it:
 
 ```powershell
-irm https://raw.githubusercontent.com/DrTHunter/rainmeter-enigma-trent/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/DrTHunter/Rainmeter-Enigma-Custom-Trent/main/install.ps1 | iex
 ```
 
 **Or by hand** — **Code → Download ZIP** on this page (or `git clone` it), unzip it somewhere

@@ -20,7 +20,7 @@
 
 .PARAMETER Path
     Where to put the repo when it has to be downloaded.
-    Default: Documents\rainmeter-enigma-trent in your user profile. (Not
+    Default: Documents\Rainmeter-Enigma-Custom-Trent in your user profile. (Not
     Documents\Rainmeter - Rainmeter keeps its own default Skins folder there.)
 
 .PARAMETER SkipRainmeter
@@ -31,13 +31,13 @@
 #>
 [CmdletBinding()]
 param(
-    [string]$Path = (Join-Path $env:USERPROFILE 'Documents\rainmeter-enigma-trent'),
+    [string]$Path = (Join-Path $env:USERPROFILE 'Documents\Rainmeter-Enigma-Custom-Trent'),
     [switch]$SkipRainmeter,
     [switch]$DownloadOnly
 )
 
 $ErrorActionPreference = 'Stop'
-$Repo = 'DrTHunter/rainmeter-enigma-trent'
+$Repo = 'DrTHunter/Rainmeter-Enigma-Custom-Trent'
 $Branch = 'main'
 
 function Step([string]$Text) { Write-Host ''; Write-Host "== $Text" -ForegroundColor Cyan }
@@ -82,8 +82,8 @@ else {
         if ($LASTEXITCODE -ne 0) { throw "git clone failed (see the message above). Check your internet connection and that -Path is writable." }
     }
     else {
-        $zip = Join-Path $env:TEMP 'rainmeter-enigma-trent.zip'
-        $unpack = Join-Path $env:TEMP 'rainmeter-enigma-trent-unpack'
+        $zip = Join-Path $env:TEMP 'Rainmeter-Enigma-Custom-Trent.zip'
+        $unpack = Join-Path $env:TEMP 'Rainmeter-Enigma-Custom-Trent-unpack'
         Info "Downloading $Repo as a zip (about 8 MB) ..."
         [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
         try { Invoke-WebRequest "https://github.com/$Repo/archive/refs/heads/$Branch.zip" -OutFile $zip -UseBasicParsing }
