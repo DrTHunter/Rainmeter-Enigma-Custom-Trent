@@ -15,6 +15,8 @@ news ticker, calendar, weather, drive gauges — set up from one panel, no file 
 
 > Extract the zip somewhere permanent (like `Documents`), not `Downloads` — the desktop runs
 > from that folder. If Windows SmartScreen appears, choose *More info → Run anyway*.
+>
+> Stuck? Email **[dr_hunter@yahoo.com](mailto:dr_hunter@yahoo.com?subject=Rainmeter%20Enigma%20Custom%20-%20question)** — see [Need help?](#need-help).
 
 ---
 
@@ -112,6 +114,15 @@ folder. Remove Rainmeter itself from *Settings → Apps* if you no longer want i
 | Calendar or weather is empty | Fill it in through the gear (⚙) → Enigma Setup. |
 | A drive gauge says "Removed" | That drive letter doesn't exist on your PC — change it in Enigma Setup. |
 | Windows SmartScreen blocks `install.cmd` | *More info → Run anyway*. Administrator rights are not needed. |
+
+## Need help?
+
+Technical questions about installing or customising this setup: email **[dr_hunter@yahoo.com](mailto:dr_hunter@yahoo.com?subject=Rainmeter%20Enigma%20Custom%20-%20question)**.
+It helps to include your Windows version, your screen resolution, what you clicked, and what
+happened instead — a screenshot is ideal.
+
+Found a bug or want a feature? Open an
+[issue](https://github.com/DrTHunter/Rainmeter-Enigma-Custom-Trent/issues) so others can find the answer too.
 
 ## What's changed from stock Enigma
 
