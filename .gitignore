@@ -1,0 +1,3 @@
+# Personal data the skins write while running - never commit these.
+Skins/Enigma/@Resources/User/Calendars/GoogleCalendar*.xml
+Skins/Enigma/@Resources/User/Notes/Notes.txt
