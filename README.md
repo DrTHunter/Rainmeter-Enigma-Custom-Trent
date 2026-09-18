@@ -124,4 +124,4 @@ licensed **CC BY-NC-SA 3.0**, so this repository as a whole is shared under the 
 use it, change it, share it, credit the authors, not for commercial use. The Pomodoro timer is
 derived from Eclectic Tech's (CC BY 4.0) and the WebNowPlaying plugin is MIT.
 
-If this saved you some time: [$TrentHun on Cash App](https://cash.app/$TrentHun).
+If you found this valuable feel free to buy me a coffee: [$TrentHun on Cash App](https://cash.app/$TrentHun).
